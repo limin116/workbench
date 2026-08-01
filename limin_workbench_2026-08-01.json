@@ -1,0 +1,345 @@
+{
+  "version": 1,
+  "daily": [
+    {
+      "id": "ms9rn5ps3w3a37",
+      "text": "八段锦"
+    },
+    {
+      "id": "ms9rn5ps97wd3l",
+      "text": "金刚功"
+    },
+    {
+      "id": "ms9rn5psqa6tmg",
+      "text": "阅读"
+    },
+    {
+      "id": "ms9rn5ps6bv280",
+      "text": "涂米诺2遍"
+    },
+    {
+      "id": "ms9rn5psp55n44",
+      "text": "涂百洛油2遍"
+    },
+    {
+      "id": "ms9rn5pssbbb2k",
+      "text": "学英语"
+    },
+    {
+      "id": "ms9rn5psg01jku",
+      "text": "撞背5min"
+    },
+    {
+      "id": "ms9rn5ps8s3hxr",
+      "text": "拍拍（胆经，肝经，腹股沟，臀部）"
+    },
+    {
+      "id": "ms9rn5psh7cryu",
+      "text": "练字"
+    }
+  ],
+  "sport": [
+    {
+      "id": "ms9rn5pssn8d25",
+      "text": "跳绳"
+    },
+    {
+      "id": "ms9rn5psikwz30",
+      "text": "散步"
+    },
+    {
+      "id": "ms9rn5ps8t3mzn",
+      "text": "死虫式"
+    },
+    {
+      "id": "ms9rn5ps5ny67a",
+      "text": "转背"
+    }
+  ],
+  "english": [
+    {
+      "id": "ms9rn5ps1ot6qs",
+      "text": "单词30个",
+      "tag": "推荐：百词斩/扇贝单词/墨墨背单词"
+    },
+    {
+      "id": "ms9rn5psbaovpn",
+      "text": "句子（5句）"
+    },
+    {
+      "id": "ms9rn5psznchg9",
+      "text": "语法"
+    },
+    {
+      "id": "ms9rn5psi6klbf",
+      "text": "听力"
+    }
+  ],
+  "books": [
+    {
+      "id": "ms9rn5pss6m8zl",
+      "title": "兄弟",
+      "author": "余华",
+      "read": false
+    },
+    {
+      "id": "ms9rn5ps6fbbig",
+      "title": "在细雨中呼喊",
+      "author": "余华",
+      "read": false
+    },
+    {
+      "id": "ms9rn5psx6gunh",
+      "title": "认知觉醒",
+      "author": "",
+      "read": false
+    },
+    {
+      "id": "ms9rn5psrvp4zz",
+      "title": "额尔古纳河右岸",
+      "author": "",
+      "read": false
+    },
+    {
+      "id": "ms9rn5psjqj2rs",
+      "title": "平凡的世界",
+      "author": "",
+      "read": false
+    },
+    {
+      "id": "ms9rn5psha6p7q",
+      "title": "苏东坡传",
+      "author": "",
+      "read": false
+    },
+    {
+      "id": "ms9rn5psthvphw",
+      "title": "拿破仑传",
+      "author": "",
+      "read": false
+    },
+    {
+      "id": "ms9rn5ps41oghn",
+      "title": "红楼梦",
+      "author": "",
+      "read": false
+    },
+    {
+      "id": "ms9rn5ps0ckfvb",
+      "title": "百年孤独",
+      "author": "",
+      "read": false
+    },
+    {
+      "id": "ms9rn5ps5tgk4l",
+      "title": "人类简史",
+      "author": "",
+      "read": false
+    },
+    {
+      "id": "ms9rn5psndfzbt",
+      "title": "穷查理宝典",
+      "author": "",
+      "read": false
+    },
+    {
+      "id": "ms9rn5psryejvj",
+      "title": "纳瓦尔宝典",
+      "author": "",
+      "read": false
+    },
+    {
+      "id": "ms9rn5psuhuiko",
+      "title": "成长终身",
+      "author": "",
+      "read": false
+    },
+    {
+      "id": "ms9rn5pshzi8wq",
+      "title": "反脆弱",
+      "author": "",
+      "read": false
+    },
+    {
+      "id": "ms9rn5pskait6j",
+      "title": "力量",
+      "author": "朗达·拜恩",
+      "read": false
+    },
+    {
+      "id": "ms9rn5psx9yg2f",
+      "title": "魔力",
+      "author": "朗达·拜恩",
+      "read": false
+    },
+    {
+      "id": "ms9rn5psl0xbi0",
+      "title": "秘密实践版",
+      "author": "朗达·拜恩",
+      "read": false
+    },
+    {
+      "id": "ms9rn5pskhlv8s",
+      "title": "英雄",
+      "author": "朗达·拜恩",
+      "read": false
+    },
+    {
+      "id": "ms9rn5psc2ghwq",
+      "title": "小狗钱钱",
+      "author": "",
+      "read": false
+    },
+    {
+      "id": "ms9rn5ps2vuuve",
+      "title": "穷爸爸富爸爸",
+      "author": "",
+      "read": false
+    },
+    {
+      "id": "ms9rn5psziy2ts",
+      "title": "定投十年财务自由",
+      "author": "",
+      "read": false
+    },
+    {
+      "id": "ms9rn5pslj62mk",
+      "title": "邻家的百万富翁",
+      "author": "",
+      "read": false
+    },
+    {
+      "id": "ms9rn5psvg2eq1",
+      "title": "证券分析",
+      "author": "",
+      "read": false
+    },
+    {
+      "id": "ms9rn5ps2ij6he",
+      "title": "聪明的投资者",
+      "author": "",
+      "read": false
+    }
+  ],
+  "skills": [
+    {
+      "id": "ms9rn5psfo5zjk",
+      "name": "游泳",
+      "progress": 0
+    },
+    {
+      "id": "ms9rn5psm16h3n",
+      "name": "跳舞",
+      "progress": 0
+    },
+    {
+      "id": "ms9rn5psr1ldjn",
+      "name": "做自媒体",
+      "progress": 0
+    },
+    {
+      "id": "ms9rn5psomwi3l",
+      "name": "化妆",
+      "progress": 0
+    },
+    {
+      "id": "ms9rn5psijsqfe",
+      "name": "引体向上",
+      "progress": 0
+    }
+  ],
+  "money": [
+    {
+      "id": "ms9rn5pseu3wy4",
+      "text": "学习基础理财知识"
+    },
+    {
+      "id": "ms9rn5psgl174r",
+      "text": "了解理财工具：国债、股票、基金、市场方向、国家政策"
+    }
+  ],
+  "records": {
+    "2026-08-01": {}
+  },
+  "videoCache": {
+    "english": [
+      {
+        "title": "雅思核心句型精讲",
+        "desc": "核心语法点 · 句型构造与用法",
+        "emoji": "📝",
+        "url": "https://www.bilibili.com/search?search_type=video&keyword=%E9%9B%85%E6%80%9D%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%20%E5%8F%A5%E5%AD%90%E8%AF%AD%E6%B3%95"
+      },
+      {
+        "title": "雅思听力实战训练",
+        "desc": "日常听力磨耳朵",
+        "emoji": "👂",
+        "url": "https://www.bilibili.com/search?search_type=video&keyword=IELTS%20listening%20practice"
+      },
+      {
+        "title": "雅思语法重点解析",
+        "desc": "时态、从句、虚拟语气",
+        "emoji": "📖",
+        "url": "https://www.bilibili.com/search?search_type=video&keyword=%E9%9B%85%E6%80%9D%E8%AF%AD%E6%B3%95%E8%AE%B2%E8%A7%A3%E8%A7%86%E9%A2%91"
+      },
+      {
+        "title": "每日一句精读",
+        "desc": "积累高频表达",
+        "emoji": "💡",
+        "url": "https://www.bilibili.com/search?search_type=video&keyword=%E8%8B%B1%E8%AF%AD%E6%AF%8F%E6%97%A5%E4%B8%80%E5%8F%A5%20%E9%9B%85%E6%80%9D"
+      }
+    ],
+    "skills": [
+      {
+        "title": "游泳零基础入门",
+        "desc": "蛙泳/自由泳教学",
+        "emoji": "🏊",
+        "url": "https://www.bilibili.com/search?search_type=video&keyword=%E6%B8%B8%E6%B3%B3%E5%85%A5%E9%97%A8%E6%95%99%E5%AD%A6%E8%A7%86%E9%A2%91"
+      },
+      {
+        "title": "舞蹈基础教学",
+        "desc": "节奏感与基本动作",
+        "emoji": "💃",
+        "url": "https://www.bilibili.com/search?search_type=video&keyword=%E8%B7%B3%E8%88%9E%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B"
+      },
+      {
+        "title": "自媒体运营指南",
+        "desc": "从0到1做自媒体",
+        "emoji": "📱",
+        "url": "https://www.bilibili.com/search?search_type=video&keyword=%E8%87%AA%E5%AA%92%E4%BD%93%E8%BF%90%E8%90%A5%E5%85%A5%E9%97%A8"
+      },
+      {
+        "title": "新手化妆教程",
+        "desc": "日常淡妆教学",
+        "emoji": "💄",
+        "url": "https://www.bilibili.com/search?search_type=video&keyword=%E5%8C%96%E5%A6%86%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B"
+      }
+    ],
+    "money": [
+      {
+        "title": "理财入门第一课",
+        "desc": "建立理财思维",
+        "emoji": "📊",
+        "url": "https://www.bilibili.com/search?search_type=video&keyword=%E7%90%86%E8%B4%A2%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%85%A5%E9%97%A8"
+      },
+      {
+        "title": "国债投资指南",
+        "desc": "稳健理财之选",
+        "emoji": "🏦",
+        "url": "https://www.bilibili.com/search?search_type=video&keyword=%E5%9B%BD%E5%80%BA%E8%B4%AD%E4%B9%B0%E6%8C%87%E5%8D%97"
+      },
+      {
+        "title": "基金定投策略",
+        "desc": "懒人理财法",
+        "emoji": "📈",
+        "url": "https://www.bilibili.com/search?search_type=video&keyword=%E5%9F%BA%E9%87%91%E5%AE%9A%E6%8A%95%E7%AD%96%E7%95%A5"
+      },
+      {
+        "title": "股票基础知识",
+        "desc": "新手必看",
+        "emoji": "💹",
+        "url": "https://www.bilibili.com/search?search_type=video&keyword=%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8%E7%9F%A5%E8%AF%86"
+      }
+    ],
+    "lastFetch": "2026-08-01"
+  }
+}
