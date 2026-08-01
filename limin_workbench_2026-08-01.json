@@ -2,220 +2,220 @@
   "version": 1,
   "daily": [
     {
-      "id": "ms9rn5ps3w3a37",
+      "id": "ms7bjo8ootfbmh",
       "text": "八段锦"
     },
     {
-      "id": "ms9rn5ps97wd3l",
+      "id": "ms7bjo8ospmt5s",
       "text": "金刚功"
     },
     {
-      "id": "ms9rn5psqa6tmg",
+      "id": "ms7bjo8oyo01m0",
       "text": "阅读"
     },
     {
-      "id": "ms9rn5ps6bv280",
+      "id": "ms7bjo8or2otlp",
       "text": "涂米诺2遍"
     },
     {
-      "id": "ms9rn5psp55n44",
+      "id": "ms7bjo8ofgzjol",
       "text": "涂百洛油2遍"
     },
     {
-      "id": "ms9rn5pssbbb2k",
+      "id": "ms7bjo8ojde5b4",
       "text": "学英语"
     },
     {
-      "id": "ms9rn5psg01jku",
+      "id": "ms7bjo8ogh9u6c",
       "text": "撞背5min"
     },
     {
-      "id": "ms9rn5ps8s3hxr",
+      "id": "ms7bjo8ockmgcn",
       "text": "拍拍（胆经，肝经，腹股沟，臀部）"
     },
     {
-      "id": "ms9rn5psh7cryu",
+      "id": "ms7bjo8o82pvs9",
       "text": "练字"
     }
   ],
   "sport": [
     {
-      "id": "ms9rn5pssn8d25",
+      "id": "ms7bjo8o76dhfg",
       "text": "跳绳"
     },
     {
-      "id": "ms9rn5psikwz30",
+      "id": "ms7bjo8otgvsz3",
       "text": "散步"
     },
     {
-      "id": "ms9rn5ps8t3mzn",
+      "id": "ms7bjo8oub9ky6",
       "text": "死虫式"
     },
     {
-      "id": "ms9rn5ps5ny67a",
+      "id": "ms7bjo8otjudzv",
       "text": "转背"
     }
   ],
   "english": [
     {
-      "id": "ms9rn5ps1ot6qs",
+      "id": "ms7bjo8oqq77wd",
       "text": "单词30个",
       "tag": "推荐：百词斩/扇贝单词/墨墨背单词"
     },
     {
-      "id": "ms9rn5psbaovpn",
+      "id": "ms7bjo8oofbskl",
       "text": "句子（5句）"
     },
     {
-      "id": "ms9rn5psznchg9",
+      "id": "ms7bjo8ob50z22",
       "text": "语法"
     },
     {
-      "id": "ms9rn5psi6klbf",
+      "id": "ms7bjo8op7azxj",
       "text": "听力"
     }
   ],
   "books": [
     {
-      "id": "ms9rn5pss6m8zl",
+      "id": "ms7bjo8ol262fk",
       "title": "兄弟",
       "author": "余华",
       "read": false
     },
     {
-      "id": "ms9rn5ps6fbbig",
+      "id": "ms7bjo8oe6f6s4",
       "title": "在细雨中呼喊",
       "author": "余华",
       "read": false
     },
     {
-      "id": "ms9rn5psx6gunh",
+      "id": "ms7bjo8osacjif",
       "title": "认知觉醒",
       "author": "",
       "read": false
     },
     {
-      "id": "ms9rn5psrvp4zz",
+      "id": "ms7bjo8oexsh22",
       "title": "额尔古纳河右岸",
       "author": "",
       "read": false
     },
     {
-      "id": "ms9rn5psjqj2rs",
+      "id": "ms7bjo8oy5jk3e",
       "title": "平凡的世界",
       "author": "",
       "read": false
     },
     {
-      "id": "ms9rn5psha6p7q",
+      "id": "ms7bjo8osnfup9",
       "title": "苏东坡传",
       "author": "",
       "read": false
     },
     {
-      "id": "ms9rn5psthvphw",
+      "id": "ms7bjo8o0kpu1u",
       "title": "拿破仑传",
       "author": "",
       "read": false
     },
     {
-      "id": "ms9rn5ps41oghn",
+      "id": "ms7bjo8o20ec3e",
       "title": "红楼梦",
       "author": "",
       "read": false
     },
     {
-      "id": "ms9rn5ps0ckfvb",
+      "id": "ms7bjo8oxt96zf",
       "title": "百年孤独",
       "author": "",
       "read": false
     },
     {
-      "id": "ms9rn5ps5tgk4l",
+      "id": "ms7bjo8ojfid9g",
       "title": "人类简史",
       "author": "",
       "read": false
     },
     {
-      "id": "ms9rn5psndfzbt",
+      "id": "ms7bjo8o5st92q",
       "title": "穷查理宝典",
       "author": "",
       "read": false
     },
     {
-      "id": "ms9rn5psryejvj",
+      "id": "ms7bjo8oueds33",
       "title": "纳瓦尔宝典",
       "author": "",
       "read": false
     },
     {
-      "id": "ms9rn5psuhuiko",
+      "id": "ms7bjo8oxevtuj",
       "title": "成长终身",
       "author": "",
       "read": false
     },
     {
-      "id": "ms9rn5pshzi8wq",
+      "id": "ms7bjo8o4oztsz",
       "title": "反脆弱",
       "author": "",
       "read": false
     },
     {
-      "id": "ms9rn5pskait6j",
+      "id": "ms7bjo8owm0ive",
       "title": "力量",
       "author": "朗达·拜恩",
       "read": false
     },
     {
-      "id": "ms9rn5psx9yg2f",
+      "id": "ms7bjo8ok2h6dg",
       "title": "魔力",
       "author": "朗达·拜恩",
       "read": false
     },
     {
-      "id": "ms9rn5psl0xbi0",
+      "id": "ms7bjo8omm174u",
       "title": "秘密实践版",
       "author": "朗达·拜恩",
       "read": false
     },
     {
-      "id": "ms9rn5pskhlv8s",
+      "id": "ms7bjo8oj0oij3",
       "title": "英雄",
       "author": "朗达·拜恩",
       "read": false
     },
     {
-      "id": "ms9rn5psc2ghwq",
+      "id": "ms7bjo8ops7113",
       "title": "小狗钱钱",
       "author": "",
       "read": false
     },
     {
-      "id": "ms9rn5ps2vuuve",
+      "id": "ms7bjo8oqxkkbg",
       "title": "穷爸爸富爸爸",
       "author": "",
       "read": false
     },
     {
-      "id": "ms9rn5psziy2ts",
+      "id": "ms7bjo8o7urcsx",
       "title": "定投十年财务自由",
       "author": "",
       "read": false
     },
     {
-      "id": "ms9rn5pslj62mk",
+      "id": "ms7bjo8oozujsu",
       "title": "邻家的百万富翁",
       "author": "",
       "read": false
     },
     {
-      "id": "ms9rn5psvg2eq1",
+      "id": "ms7bjo8o6fx9zo",
       "title": "证券分析",
       "author": "",
       "read": false
     },
     {
-      "id": "ms9rn5ps2ij6he",
+      "id": "ms7bjo8otlm2gr",
       "title": "聪明的投资者",
       "author": "",
       "read": false
@@ -223,49 +223,50 @@
   ],
   "skills": [
     {
-      "id": "ms9rn5psfo5zjk",
+      "id": "ms7bjo8omnaioc",
       "name": "游泳",
       "progress": 0
     },
     {
-      "id": "ms9rn5psm16h3n",
+      "id": "ms7bjo8o647pfg",
       "name": "跳舞",
       "progress": 0
     },
     {
-      "id": "ms9rn5psr1ldjn",
+      "id": "ms7bjo8o96heuu",
       "name": "做自媒体",
       "progress": 0
     },
     {
-      "id": "ms9rn5psomwi3l",
+      "id": "ms7bjo8oev70cz",
       "name": "化妆",
       "progress": 0
     },
     {
-      "id": "ms9rn5psijsqfe",
+      "id": "ms7bjo8obucgvv",
       "name": "引体向上",
       "progress": 0
     }
   ],
   "money": [
     {
-      "id": "ms9rn5pseu3wy4",
+      "id": "ms7bjo8oodxfya",
       "text": "学习基础理财知识"
     },
     {
-      "id": "ms9rn5psgl174r",
+      "id": "ms7bjo8omlnaw4",
       "text": "了解理财工具：国债、股票、基金、市场方向、国家政策"
     }
   ],
   "records": {
+    "2026-07-30": {},
     "2026-08-01": {}
   },
   "videoCache": {
     "english": [
       {
         "title": "雅思核心句型精讲",
-        "desc": "核心语法点 · 句型构造与用法",
+        "desc": "口语提升 · 句型构造与用法",
         "emoji": "📝",
         "url": "https://www.bilibili.com/search?search_type=video&keyword=%E9%9B%85%E6%80%9D%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0%20%E5%8F%A5%E5%AD%90%E8%AF%AD%E6%B3%95"
       },
@@ -340,6 +341,6 @@
         "url": "https://www.bilibili.com/search?search_type=video&keyword=%E8%82%A1%E7%A5%A8%E5%85%A5%E9%97%A8%E7%9F%A5%E8%AF%86"
       }
     ],
-    "lastFetch": "2026-08-01"
+    "lastFetch": "2026-07-30"
   }
 }
