@@ -1,12 +1,13 @@
-bplist00�_WebMainResource_WebSubresources�	
-_WebResourceTextEncodingName_WebResourceData_WebResourceMIMEType_WebResourceFrameName^WebResourceURLUUTF-8O�<!DOCTYPE html><html lang="zh-CN"><head>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="李敏工作台">
 <meta name="theme-color" content="#FF69B4">
-<link rel="manifest" href="data:application/manifest+json,{&quot;name&quot;:&quot;李敏的个人工作台 🌸&quot;,&quot;short_name&quot;:&quot;工作台&quot;,&quot;start_url&quot;:&quot;./&quot;,&quot;display&quot;:&quot;standalone&quot;,&quot;background_color&quot;:&quot;#FFF0F5&quot;,&quot;theme_color&quot;:&quot;#FF69B4&quot;,&quot;icons&quot;:[{&quot;src&quot;:&quot;data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 192 192%27%3E%3Crect width=%27192%27 height=%27192%27 rx=%2740%27 fill=%27%23FFB6C1%27/%3E%3Ctext x=%2796%27 y=%27130%27 font-size=%27100%27 text-anchor=%27middle%27 fill=%27white%27%3E🌸%3C/text%3E%3C/svg%3E&quot;,&quot;sizes&quot;:&quot;192x192&quot;,&quot;type&quot;:&quot;image/svg+xml&quot;,&quot;purpose&quot;:&quot;any maskable&quot;}]}">
+<link rel="manifest" href='data:application/manifest+json,{"name":"李敏的个人工作台 🌸","short_name":"工作台","start_url":"./","display":"standalone","background_color":"#FFF0F5","theme_color":"#FF69B4","icons":[{"src":"data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 192 192%27%3E%3Crect width=%27192%27 height=%27192%27 rx=%2740%27 fill=%27%23FFB6C1%27/%3E%3Ctext x=%2796%27 y=%27130%27 font-size=%27100%27 text-anchor=%27middle%27 fill=%27white%27%3E🌸%3C/text%3E%3C/svg%3E","sizes":"192x192","type":"image/svg+xml","purpose":"any maskable"}]}'>
 <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='40' fill='%23FFB6C1'/%3E%3Ctext x='96' y='130' font-size='100' text-anchor='middle' fill='white'%3E🌸%3C/text%3E%3C/svg%3E">
 <title>李敏的个人工作台 🌸</title>
 <style>
@@ -447,211 +448,17 @@ input,textarea{font-family:inherit;outline:none;}
 <!-- 布局 -->
 <div class="layout">
   <!-- 左侧栏：模块导航 -->
-  <div class="rightbar" id="rightbar">
-    <div class="right-item active" onclick="switchModule('daily')">
-      <span class="emoji">📋</span>
-      <span>每日任务</span>
-    </div>
-  
-    <div class="right-item " onclick="switchModule('sport')">
-      <span class="emoji">🏃‍♀️</span>
-      <span>运动塑形</span>
-    </div>
-  
-    <div class="right-item " onclick="switchModule('english')">
-      <span class="emoji">📚</span>
-      <span>英语学习</span>
-    </div>
-  
-    <div class="right-item " onclick="switchModule('books')">
-      <span class="emoji">📖</span>
-      <span>待读书籍</span>
-    </div>
-  
-    <div class="right-item " onclick="switchModule('skills')">
-      <span class="emoji">✨</span>
-      <span>技能满满</span>
-    </div>
-  
-    <div class="right-item " onclick="switchModule('money')">
-      <span class="emoji">💰</span>
-      <span>金钱多多</span>
-    </div>
-  
-    <div class="right-item " onclick="switchModule('summary')">
-      <span class="emoji">📊</span>
-      <span>每日汇总</span>
-    </div>
-  </div>
+  <div class="rightbar" id="rightbar"></div>
 
   <!-- 主内容 -->
-  <div class="main" id="mainContent">
-    <div class="progress-wrap">
-      <div class="progress-label">
-        <span>📋 每日任务</span>
-        <span>0/9 · 0%</span>
-      </div>
-      <div class="progress-bar"><div class="progress-fill" style="width:0%"></div></div>
-      <div style="display:flex;align-items:center;gap:8px;margin-top:10px;justify-content:center;">
-        <button class="date-nav-btn" onclick="changeDate(-1)">‹</button>
-        <div class="date-picker">
-          <input type="date" id="dateInput" value="2026-08-01" onchange="setCurrentDate(this.value)">
-        </div>
-        <button class="date-nav-btn" onclick="changeDate(1)">›</button>
-        
-      </div>
-    </div>
-  
-      <div class="card">
-        <div class="card-header">
-          <div class="card-title">📋 今日任务</div>
-          <button class="add-btn" onclick="showAddTaskModal('daily')">➕ 添加</button>
-        </div>
-        
-        
-            <div class="task-item " id="item-ms7bjo8ootfbmh">
-              <div class="checkbox " onclick="toggleTaskDone('daily','ms7bjo8ootfbmh')"></div>
-              <div class="task-text">八段锦</div>
-              <button class="del-btn" onclick="deleteItem('daily','ms7bjo8ootfbmh')">🗑</button>
-            </div>
-          
-            <div class="task-item " id="item-ms7bjo8ospmt5s">
-              <div class="checkbox " onclick="toggleTaskDone('daily','ms7bjo8ospmt5s')"></div>
-              <div class="task-text">金刚功</div>
-              <button class="del-btn" onclick="deleteItem('daily','ms7bjo8ospmt5s')">🗑</button>
-            </div>
-          
-            <div class="task-item " id="item-ms7bjo8oyo01m0">
-              <div class="checkbox " onclick="toggleTaskDone('daily','ms7bjo8oyo01m0')"></div>
-              <div class="task-text">阅读</div>
-              <button class="del-btn" onclick="deleteItem('daily','ms7bjo8oyo01m0')">🗑</button>
-            </div>
-          
-            <div class="task-item " id="item-ms7bjo8or2otlp">
-              <div class="checkbox " onclick="toggleTaskDone('daily','ms7bjo8or2otlp')"></div>
-              <div class="task-text">涂米诺2遍</div>
-              <button class="del-btn" onclick="deleteItem('daily','ms7bjo8or2otlp')">🗑</button>
-            </div>
-          
-            <div class="task-item " id="item-ms7bjo8ofgzjol">
-              <div class="checkbox " onclick="toggleTaskDone('daily','ms7bjo8ofgzjol')"></div>
-              <div class="task-text">涂百洛油2遍</div>
-              <button class="del-btn" onclick="deleteItem('daily','ms7bjo8ofgzjol')">🗑</button>
-            </div>
-          
-            <div class="task-item " id="item-ms7bjo8ojde5b4">
-              <div class="checkbox " onclick="toggleTaskDone('daily','ms7bjo8ojde5b4')"></div>
-              <div class="task-text">学英语</div>
-              <button class="del-btn" onclick="deleteItem('daily','ms7bjo8ojde5b4')">🗑</button>
-            </div>
-          
-            <div class="task-item " id="item-ms7bjo8ogh9u6c">
-              <div class="checkbox " onclick="toggleTaskDone('daily','ms7bjo8ogh9u6c')"></div>
-              <div class="task-text">撞背5min</div>
-              <button class="del-btn" onclick="deleteItem('daily','ms7bjo8ogh9u6c')">🗑</button>
-            </div>
-          
-            <div class="task-item " id="item-ms7bjo8ockmgcn">
-              <div class="checkbox " onclick="toggleTaskDone('daily','ms7bjo8ockmgcn')"></div>
-              <div class="task-text">拍拍（胆经，肝经，腹股沟，臀部）</div>
-              <button class="del-btn" onclick="deleteItem('daily','ms7bjo8ockmgcn')">🗑</button>
-            </div>
-          
-            <div class="task-item " id="item-ms7bjo8o82pvs9">
-              <div class="checkbox " onclick="toggleTaskDone('daily','ms7bjo8o82pvs9')"></div>
-              <div class="task-text">练字</div>
-              <button class="del-btn" onclick="deleteItem('daily','ms7bjo8o82pvs9')">🗑</button>
-            </div>
-          
-      </div>
-    </div>
+  <div class="main" id="mainContent"></div>
 
   <!-- 右侧栏：模块小点 -->
-  <div class="leftbar" id="leftbar">
-    <div class="left-dot active" onclick="scrollToItem('ms7bjo8ootfbmh')">
-      <span class="emoji">🌸</span>
-      <span>八段锦</span>
-    </div>
-  
-    <div class="left-dot " onclick="scrollToItem('ms7bjo8ospmt5s')">
-      <span class="emoji">🌸</span>
-      <span>金刚功</span>
-    </div>
-  
-    <div class="left-dot " onclick="scrollToItem('ms7bjo8oyo01m0')">
-      <span class="emoji">🌸</span>
-      <span>阅读</span>
-    </div>
-  
-    <div class="left-dot " onclick="scrollToItem('ms7bjo8or2otlp')">
-      <span class="emoji">🌸</span>
-      <span>涂米诺2遍</span>
-    </div>
-  
-    <div class="left-dot " onclick="scrollToItem('ms7bjo8ofgzjol')">
-      <span class="emoji">🌸</span>
-      <span>涂百洛油2遍</span>
-    </div>
-  
-    <div class="left-dot " onclick="scrollToItem('ms7bjo8ojde5b4')">
-      <span class="emoji">🌸</span>
-      <span>学英语</span>
-    </div>
-  
-    <div class="left-dot " onclick="scrollToItem('ms7bjo8ogh9u6c')">
-      <span class="emoji">🌸</span>
-      <span>撞背5min</span>
-    </div>
-  
-    <div class="left-dot " onclick="scrollToItem('ms7bjo8ockmgcn')">
-      <span class="emoji">🌸</span>
-      <span>拍拍（胆经，肝经</span>
-    </div>
-  
-    <div class="left-dot " onclick="scrollToItem('ms7bjo8o82pvs9')">
-      <span class="emoji">🌸</span>
-      <span>练字</span>
-    </div>
-  </div>
+  <div class="leftbar" id="leftbar"></div>
 </div>
 
 <!-- 底部导航（移动端） -->
-<div class="bottom-nav" id="bottomNav">
-    <div class="bottom-nav-item active" onclick="switchModule('daily')">
-      <span class="emoji">📋</span>
-      <span>每日任务</span>
-    </div>
-  
-    <div class="bottom-nav-item " onclick="switchModule('sport')">
-      <span class="emoji">🏃‍♀️</span>
-      <span>运动塑形</span>
-    </div>
-  
-    <div class="bottom-nav-item " onclick="switchModule('english')">
-      <span class="emoji">📚</span>
-      <span>英语学习</span>
-    </div>
-  
-    <div class="bottom-nav-item " onclick="switchModule('books')">
-      <span class="emoji">📖</span>
-      <span>待读书籍</span>
-    </div>
-  
-    <div class="bottom-nav-item " onclick="switchModule('skills')">
-      <span class="emoji">✨</span>
-      <span>技能满满</span>
-    </div>
-  
-    <div class="bottom-nav-item " onclick="switchModule('money')">
-      <span class="emoji">💰</span>
-      <span>金钱多多</span>
-    </div>
-  
-    <div class="bottom-nav-item " onclick="switchModule('summary')">
-      <span class="emoji">📊</span>
-      <span>汇总</span>
-    </div>
-  </div>
+<div class="bottom-nav" id="bottomNav"></div>
 
 <!-- 模态框 -->
 <div class="modal-mask" id="modalMask">
@@ -1501,8 +1308,5 @@ document.getElementById('modalMask').addEventListener('click',(e)=>{
 
 init();
 </script>
-
-
-</body></html>Ytext/htmlP_;https://webview.e2b.gz1.sandbox.cloudstudio.club/index.html��_WebResourceResponseO}{"name":"李敏的个人工作台 🌸","short_name":"工作台","start_url":"./","display":"standalone","background_color":"_application/manifest+json_�data:application/manifest+json,{"name":"%E6%9D%8E%E6%95%8F%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%B7%A5%E4%BD%9C%E5%8F%B0 %F0%9F%8C%B8","short_name":"%E5%B7%A5%E4%BD%9C%E5%8F%B0","start_url":"./","display":"standalone","background_color":"#FFF0F5%22,%22theme_color%22:%22#FF69B4%22,%22icons%22:[{%22src%22:%22data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%20192%20192%27%3E%3Crect%20width=%27192%27%20height=%27192%27%20rx=%2740%27%20fill=%27%23FFB6C1%27/%3E%3Ctext%20x=%2796%27%20y=%27130%27%20font-size=%27100%27%20text-anchor=%27middle%27%20fill=%27white%27%3E%F0%9F%8C%B8%3C/text%3E%3C/svg%3E%22,%22sizes%22:%22192x192%22,%22type%22:%22image/svg+xml%22,%22purpose%22:%22any%20maskable%22}]}O�bplist00�
-X$versionY$archiverT$topX$objects ��_NSKeyedArchiver�	_WebResourceResponse��#)*01234U$null� !"V$class___nsurlrequest_proto_prop_obj_6R$1___nsurlrequest_proto_prop_obj_4___nsurlrequest_proto_prop_obj_3___nsurlrequest_proto_prop_obj_2___nsurlrequest_proto_prop_obj_1R$2___nsurlrequest_proto_prop_obj_0___nsurlrequest_proto_prop_obj_5R$0�
-�	 � ������$%'(WNS.base[NS.relative� ��_data:application/manifest+json,%7B%22name%22:%22%E6%9D%8E%E6%95%8F%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%B7%A5%E4%BD%9C%E5%8F%B0%20%F0%9F%8C%B8%22,%22short_name%22:%22%E5%B7%A5%E4%BD%9C%E5%8F%B0%22,%22start_url%22:%22./%22,%22display%22:%22standalone%22,%22background_color%22:%22%23FFF0F5%22,%22theme_color%22:%22%23FF69B4%22,%22icons%22:%5B%7B%22src%22:%22data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%20192%20192%27%3E%3Crect%20width=%27192%27%20height=%27192%27%20rx=%2740%27%20fill=%27%23FFB6C1%27/%3E%3Ctext%20x=%2796%27%20y=%27130%27%20font-size=%27100%27%20text-anchor=%27middle%27%20fill=%27white%27%3E%F0%9F%8C%B8%3C/text%3E%3C/svg%3E%22,%22sizes%22:%22192x192%22,%22type%22:%22image/svg+xml%22,%22purpose%22:%22any%20maskable%22%7D%5D%7D�+,-.Z$classnameX$classesUNSURL�-/XNSObject#A�̻�B�_application/manifest+json}#��������+,56]NSURLResponse�7/]NSURLResponse    $ ) 2 7 I L b d p v � � � � � �ADf��������������������������"$-2@C             8              Q    1 < Z l � � � �ؾ������	��(٨��ܜ                           �
+</body>
+</html>
