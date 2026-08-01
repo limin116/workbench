@@ -1,8 +1,11 @@
-const CACHE_NAME = 'limin-workbench-v2';
+const CACHE_NAME = 'limin-workbench-v3';
 const ASSETS = [
   './',
   './index.html',
-  './manifest.json'
+  './manifest.json',
+  './sw.js',
+  './icon-192.png',
+  './icon-512.png'
 ];
 
 self.addEventListener('install', (event) => {
